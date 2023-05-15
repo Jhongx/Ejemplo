@@ -9,6 +9,7 @@ rellenarCarrito();
 
 //funcion de rellenar carrito
 function estadistica(){
+    console.log("hola")
 }
 function rellenarCarrito() {
     if (localStorage.length > 0) {
