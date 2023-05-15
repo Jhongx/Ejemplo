@@ -7,7 +7,7 @@ const vaciarCarritoBtn = document.querySelector("#vaciar-carrito");
 let articulosCarrito = [];
 rellenarCarrito();
 
-
+//funcion de rellenar carrito
 function rellenarCarrito() {
     if (localStorage.length > 0) {
         const listaObjetosRecuperada = JSON.parse(
