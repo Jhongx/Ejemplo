@@ -8,6 +8,8 @@ let articulosCarrito = [];
 rellenarCarrito();
 
 //funcion de rellenar carrito
+function estadistica(){
+}
 function rellenarCarrito() {
     if (localStorage.length > 0) {
         const listaObjetosRecuperada = JSON.parse(
